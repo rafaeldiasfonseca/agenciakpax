@@ -1,0 +1,95 @@
+@media screen and (max-width:580px){
+html, body{
+    overflow-x: hidden;}
+    .logo{
+   
+    font-size: 1.9rem;}
+    .logo a{
+        padding-right: 175px;
+    }
+    
+    
+    
+    
+    
+.crie-o-seu-site-hoje-mesmo, .trabalho-em-equipe, .design-responsivo, .SEO {	
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    padding-bottom: 3em;} 
+.crie-o-seu-site-hoje-mesmo h2, .trabalho-em-equipe h2, .design-responsivo h2, .SEO h2{	
+    text-align: center;}
+.crie-o-seu-site-hoje-mesmo p, .trabalho-em-equipe p, .design-responsivo p, .SEO p{
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;}
+.crie-o-seu-site-hoje-mesmo button, .trabalho-em-equipe button, .design-responsivo button, .SEO button {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: 0.02em;}     
+.trabalho-em-equipe .p{
+    grid-area: conteudo-tbe;}    
+.trabalho-em-equipe .img-responsive {
+    grid-area: trabalho-em-equipe;}
+.trabalho-em-equipe{  
+    grid-template-areas: 
+    "trabalho-em-equipe"
+    "conteudo-tbe"}
+.SEO p{
+    grid-area: conteudo-SEO;}    
+.SEO .img-responsive{
+    grid-area: SEO;}
+.SEO{
+    grid-template-areas: 
+    "SEO"
+    "conteudo-SEO"}
+    #Hero-Img{	
+    height: 100vh;    
+    display: grid; 
+    width: 100%;
+    justify-content: center;
+	align-items: center;}
+#Hero-Img .container{		
+	display: grid;    
+	grid-template-columns:  1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "predio-kpax"
+    "content-slide"}
+.predio-kpax{
+    margin: 0 auto;
+    grid-area: predio-kpax;  
+    margin-top: 2.1em;
+    width: 237px;
+    height: 242px;}    
+.content-slide{
+        grid-area: content-slide;}
+#Hero-Img h1{	
+    margin: 1.6em auto; 
+    text-align: center;
+    width: 95%;
+	font-size: 1.8rem;
+	line-height: 1.3em;
+	letter-spacing: 00.02em;}
+#Hero-Img h3{
+    display: none;}
+    .btn-slide{
+    margin: 0 auto;   
+    font-size: 0.9rem;}         
+   .portfolio  {  
+    grid-template-columns: 1fr;}    
+/*Call to Action*/
+#Newsletter .container{	
+	width: 95%;
+	margin: 0 auto;	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;}
+#Newsletter img{
+	margin-top: 3.8em;}
+/*END MEDIA QUERY*/
+}    

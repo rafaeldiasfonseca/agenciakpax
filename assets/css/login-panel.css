@@ -1,0 +1,25 @@
+#Login-Panel-Form{
+	display: grid;
+    height: 100vh;
+    
+    align-items: center;
+    
+}
+#Content-Login{
+		padding: 2.9em 0;
+		margin: 0px auto;
+		max-width: 400px;
+}
+.Login-Panel{
+	height: 100vh;
+    z-index: 20;
+    overflow: hidden;
+}
+.form-control{
+	height: 3em;
+	background-color: #fff;
+
+}  
+.form-login{
+	height: 3.1em;
+}

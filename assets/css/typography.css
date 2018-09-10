@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic);
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,,700,800,900');
+
+
+html{
+	font-size:14px;	
+    font-family: var(--K-font);
+}
+
+/*Desktop Responsive */
+@media screen and (max-width: 1280px){
+	body{
+		font-size: 12px;
+	}
+}
+/*Tablets */
+@media screen and (max-width: 880px){
+	body{
+		font-size: 11px;
+	}
+}
+/*Mobile*/
+@media screen and (max-width: 580px){
+	body{
+		font-size: 9px;
+	}
+}
+h1{	
+    font-size: var(--fs-lg);
+}
+
+h2{	
+	font-size: 250%;
+}
+h3{	
+	font-size: 170%;	
+    font-weight: 700;
+}
+h4{	
+	font-size: 200%;
+}
+h5{
+	font-size: 135%;
+}
+h6{
+	font-size: 100%:	
+}
+p{	
+	font-size: 1.3rem;
+    font-weight: 400;
+    color: #a0a0a0;
+    letter-spacing: 0.02rem;
+    line-height: 2rem;
+    margin-bottom: 22px;
+    color: var(--Cor-Txt-Pri);
+    text-align: justify;   
+}
+span{	
+	font-size: 90%;
+}
+b, strong {
+	font-weight: 800;	
+	
+}
+
+a{
+    text-decoration: none;
+}
+
+/*TITULOS PERSONALIZADOS*/
+
+.title-h1{
+margin: var(--title-espacamento) auto;
+font-size: 4rem;
+font-weight:800;
+text-decoration: initial;   
+    
+    
+}
+
+
+.title-h2{
+font-size: var(--fs-md);
+font-weight: var(----fw-b);
+margin: var(--title-espacamento) 0;
+font-size: 220%;
+font-weight:700;
+text-decoration: initial;
+margin: 1.2em 0;
+
+}
+.title-h3{	
+font-weight: var(----fw-b);
+margin: var(--title-espacamento) auto;
+font-size: 175%;
+font-weight:700;
+text-decoration: initial;
+}
+
+.title-section{    
+margin-top: 1.2em;    
+font-size: 2.5rem;
+font-weight: 800;
+color: #313131;
+}
+
+
+.title-h4{
+	margin: 20px 0;	
+	text-align: center;
+	font-weight: 400;
+	color: #313436;	
+}
+
+
+.title-cta{	
+	
+	font-weight: 300;			
+	font-size: 370%;	
+	line-height: 1.4em;
+}
+
+.custom-title{	
+	text-align: center;
+	
+	color: #313436;	
+	font-size: 270%;
+	margin: 5px 0 0 0;
+}
+
+.simple-p{
+	font-size: 14px;
+    color: #999;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+    margin-bottom: 22px;
+}
+.galeria-title{
+	margin: 0001em  0;	
+	font-size: 220%;
+	color: #3f3f3f;
+	font-weight:700;
+
+}
+.login-title{   
+    margin-top: 0.2em;
+	font-weight: 800;	
+	font-size: 340%;	
+	line-height: 1.4em;
+    color: #fafafa;
+    text-align: center;   
+}
+
+.nw-title{
+    font-weight: 300;
+    font-size: 2rem;    
+    margin: 0 auto;
+    line-height: 1.2em;
+    margin: 1.3em auto;    
+
+}
+text-plans{
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: lowercase;
+    
+}
+.links{
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--Cor-Pri)
+    
+}
+
+
+
+
+
+
+
+
+
