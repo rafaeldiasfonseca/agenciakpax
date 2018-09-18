@@ -78,11 +78,9 @@ header{
 	z-index: 99;	
 	position: absolute;	
 	height: 59px;
-	top: 1.9em;
+	top: 2.5em;
     display: grid;
-    width: 100%;
-     
-    
+    width: 100%;    
 }
 .logo{
 	font-size: 3.1rem;
@@ -156,9 +154,9 @@ nav a{
  font-weight: 600;
  color: #fff;
  text-decoration:none;
- font-size: 1.3rem;
+ font-size: 1.2rem;
  line-height: 3;
- letter-spacing: 00.01em;
+ letter-spacing: 00.03em;
  opacity: 0;
  transition: opacity 150ms ease-in-out;
 }
@@ -183,8 +181,7 @@ font-size: 2.8rem;
 
 
 nav a:hover{
-	color: #313131;	
-    font-weight: 600;
+	color: #313131;    
 }
 
 .nav-toggle:checked ~ nav {
@@ -231,7 +228,7 @@ nav a:hover{
 		margin-bottom: 0;
 	}
 	nav a{
-		opacity: 1;
+		opacity: 1;        
 	}	
 }
 .predio-kpax{
@@ -240,8 +237,11 @@ nav a:hover{
 	}
 /*HERO IMAGE*/
 /*1920 px*/
-#Hero-Img{	
+#Hero-Img{
+    background: linear-gradient(295deg, rgb(26, 214, 253) 0%, rgb(26, 214, 253) 0%, rgb(29, 98, 240) 100%, rgb(29, 98, 240) 100%);
     height: 100vh;
+    min-height: 100vh;
+    z-index: -1;
     align-content: center;   
     display: grid;    
 }
@@ -317,13 +317,14 @@ nav a:hover{
 }
 
 /*Botões*/
-.btn-slide{
+.btn-slide{   
 	background-color: #fff;
 	color: #51535F;
 	border:0;
-	border-radius: 3px;		
+	border-radius: 2%;		
 	line-height: 3.5em;
-	width: 12.2em;
+    width: 13em;
+    height: 4em;
 	font-family: var(--K-font);
 	font-size: var(--fs-sm); 
 	font-weight: 600;
@@ -523,12 +524,7 @@ margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 }
-.footer-custom{
-	width: 72%;
-	display: grid;	
-	grid-template-columns: 1fr 1fr 1fr;
-	margin: 75px auto;
-}
+
 .form {
 	width: 100%;
 }
@@ -556,9 +552,10 @@ margin: 0 auto;
 	width: 100%;
 	z-index: 20;
 }
-.copy {
-	margin-bottom: 12px;
-	font-family: 'Alegreya', serif;	
+.copyright {
+   
+    padding-top: 2.2em;
+	margin-bottom: 1em;	
 	font-size: 130%;	
 	font-weight:; 700;
 }
@@ -592,7 +589,6 @@ footer .container{
 	align-items: center;
 	flex-direction: column;
 }
-
 #CTA{
     display: flex;
     align-items: center;
@@ -743,7 +739,7 @@ ins{
     -o-box-shadow: none;
     box-shadow: none;    
 }
-form input[type=email] {      
+#Newsletter form input[type=email] {      
     flex-grow: 1;
     background-color: transparent;   
     margin: 0;
@@ -766,6 +762,11 @@ form input[type=email] {
     transition: all 150ms ease-out 0s;  
     border: 3px solid var(--Cor-Pri);    
 }
+#hero-02{
+    height: 31vh;
+    display: flex;
+    align-items: flex-end;    
+}
 /*--Footer--#*/
 
 .nav-footer{
@@ -786,6 +787,41 @@ form input[type=email] {
 }
 
 #Contato{
-    padding: 3em 0;
-    background-color: #111;
+    padding-bottom: 4.3em;
+    padding-top: 0.9em;
+    background-color: #fff;
+    max-width: 680px;
+   
 }
+
+
+#Ligar{
+    max-width: 680px;
+    padding-bottom: 10em;
+}
+
+.contact-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    grid-column-gap: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

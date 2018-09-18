@@ -76,8 +76,8 @@ textarea:focus, input:focus, select:focus {
     border: 0;
     outline: 0;
 } 
-input[type=password], select, input[type=text], select {
-  width: 100%;
+input[type=password], select, input[type=text], select  {
+    width: 100%;
     height: 3.7em;
     padding: 12px 20px;
     margin: 8px 0;
@@ -85,11 +85,27 @@ input[type=password], select, input[type=text], select {
     border: none;
     border-radius: 1px;
     box-sizing: border-box;
-    background-color: #f2f2f2;
-    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2;   
     font-weight: 400;
-    color: black;      
+          
 }
+
+textarea{    
+    width: 100%;
+    height: 10.7em;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 1px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;   
+    font-weight: 400;    
+}
+
+
+
+
 input[type=tel], select {
     width: 100%;
     height: 3.7em;

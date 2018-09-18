@@ -6,12 +6,7 @@ html, body{
     font-size: 1.9rem;}
     .logo a{
         padding-right: 175px;
-    }
-    
-    
-    
-    
-    
+    }    
 .crie-o-seu-site-hoje-mesmo, .trabalho-em-equipe, .design-responsivo, .SEO {	
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     padding-bottom: 3em;} 
@@ -81,15 +76,38 @@ html, body{
     margin: 0 auto;   
     font-size: 0.9rem;}         
    .portfolio  {  
-    grid-template-columns: 1fr;}    
-/*Call to Action*/
-#Newsletter .container{	
-	width: 95%;
-	margin: 0 auto;	
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;}
-#Newsletter img{
-	margin-top: 3.8em;}
+    grid-template-columns: 1fr;}
+    .title-cta{ 
+        text-align: center;
+        font-size: 3em;
+        line-height: 1.8;
+    }
+    #CTA img{
+        width: 100%;        
+    }
+    #Newsletter{
+        padding: 0;
+        margin: 3em auto;
+    }
+    
+   
+    #Newsletter span{
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 1.3;        
+    }
+    #Newsletter form input{
+         font-size: 0.8rem;   
+    }    
+     #Newsletter form button{
+         font-size: 0.8rem; }
+    
+    footer .container{
+	padding-top: 2%;
+	display: grid;
+	grid-template-columns: 1fr;	
+    grid-gap: 2em;
+    align-items: center;
+} 
 /*END MEDIA QUERY*/
 }    
