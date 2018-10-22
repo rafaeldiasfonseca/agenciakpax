@@ -22,7 +22,7 @@ html{
 /*Mobile*/
 @media screen and (max-width: 580px){
 	body{
-		font-size: 10px;
+		font-size: 9px;
 	}
 }
 h1{	
